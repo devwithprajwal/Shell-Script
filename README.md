@@ -87,7 +87,7 @@ for deployment in $DEPLOYMENTS; do
         continue
     fi
 ```
-4. Collecting all the Logs of the existing PODS of specific deployment and storing it in pod.txt in "$LOG_DIR" directory.New pod details are overwritten in the existing pod file whenever the same script is run again.
+4. Collecting all the logs of the existing PODS of specific deployment and storing it in pod.txt file in "$LOG_DIR" directory.New pod details are overwritten in the existing pod file whenever the same script is run again.
 ```yaml
 # Loop through pods and collect logs
     for pod in $PODS; do
